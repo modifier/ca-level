@@ -1,0 +1,26 @@
+{
+  "name": "calevel",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "prettier": "npx prettier --write .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "flag-icons": "^6.6.6",
+    "html2canvas": "^1.4.1",
+    "lit": "^2.4.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
